@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     def branchName = env.BRANCH_NAME
-                    git branch: branchName, credentialsId: 'github', url: 'https://github.com/GrigoryTsuryev/employees.git'
+                    git branch: branchName, credentialsId: 'github', url: 'https://github.com/DimaBaringoltz/finalproject.git'
                 }
             }
         }
